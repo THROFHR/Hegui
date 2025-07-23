@@ -27,6 +27,8 @@ public class HookTrack implements IXposedHookLoadPackage {
      * 需要Hook的包名白名单
      */
     private static final String[] whiteList = {
+            "com.cn.utopasj",
+            "com.cn.utopa",
             "com.cjs.drv",
             "com.bw30.zsch",
             "com.bw30.zsch.magic",
